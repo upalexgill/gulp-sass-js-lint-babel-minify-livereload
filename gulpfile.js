@@ -31,7 +31,7 @@ function scripts () {
     .pipe(babel({ presets: ['@babel/env'] }))
     .pipe(eslint.format())
     .pipe(eslint.failAfterError())
-    .pipe(minify({ ext: { min: '.min.js' } }))
+    .pipe(minify({ ext: { min: '.min.js' }, noSource: true }))
     .pipe(gulp.dest('./dist'))
     .pipe(livereload())
 }
