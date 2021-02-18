@@ -1,0 +1,12 @@
+{
+  "extends": [
+    "standard"
+  ],
+  "globals": {
+    "jQuery": true,
+    "Handlebars": true,
+    "getCanvasAssetPath": true,
+    "CustomEvent": true
+  }
+}
+

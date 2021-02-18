@@ -1,0 +1,11 @@
+{
+  rules: {
+    'no-important': 0,
+    'no-mergeable-selectors': 0,
+    'class-name-format': 0,
+    'no-color-literals': 0,
+    'force-element-nesting': 0,
+    'leading-zero': 0,
+    'force-pseudo-nesting': 0
+  }
+}
